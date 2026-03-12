@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+body {
+    background-color: #efeeec;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*CABEÇALHO*/
+
+header {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    z-index: 999;
+}
+
+header #fundo01 img{
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0px 5px 5px black;
+}
+
+header #logoba {
+    width: 10%;
+    background-color: white;
+    border-radius: 50%;
+    margin: 27% auto;
+    padding: 2% 3%;
+    border-style: solid;
+    border-width: 0.21em;
+    border-color: rgb(0, 156, 31);
+    box-shadow: 0px 2px 5px black;
+    position: absolute;
+}
+
+header #logoba img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/*Conteudo*/
+
+#conteudo {
+    background-color: rgba(207, 219, 207, 0.279);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 5px;
+    padding-bottom: 3%;
+}
+    /*REDES SOCIAIS*/
+#conteudo #redesocial {
+    width: 65%;
+    margin: 0.5em auto;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#conteudo #redesocial img {
+    width: 50px;
+}
+
+#conteudo #redesocial img:hover {
+    transform: scale(1.1);
+    transition: transform .5s ease;
+}
+
+    /*CONTATOS*/
+#conteudo #contatos {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+#conteudo #contatos .info {
+    margin: 1em auto;
+    background-color: rgba(0, 154, 23, 0.181);
+    width: 80%;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    justify-content: space-evenly;
+}
+
+#conteudo #contatos .info:hover {
+    background-color: rgba(0, 154, 23, 0.199);
+    transform: scale(1.01);
+    transition: transform .5s ease;
+}
+
+#conteudo #contatos .info .nome {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+#conteudo #contatos .ctt {
+    margin: 1% auto;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#conteudo #contatos .info h2 {
+    font-family: "Poiret One", sans-serif;
+    font-size: 200%;
+}
+
+#conteudo #contatos .info h3 {
+    font-family: "Lexend", sans-serif;
+    font-size: 100%;
+    margin-left: 20%;
+}
+
+#conteudo #contatos .info img {
+    width: 35px;
+}
+
+#conteudo #contatos .info img:hover {
+    transform: scale(1.1);
+    transition: transform .5s ease;
+}
+
+/*Rodapé*/
+#rodape {
+    width: 50%;
+    background-color: rgba(253, 221, 181, 0.286);
+    border-radius: 8px;
+}
+
+#rodape div {
+    padding: 1em;
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    font-size: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/*TABLET*/
+@media screen and (max-width: 1024px) {
+    body {
+       
+    }
+}
+
+/*CELULAR*/
+@media screen and (max-width: 1000px) {
+    /*REDES SOCIAIS*/
+#conteudo #redesocial img {
+    width: 30px;
+}
+
+#conteudo #contatos .info h2 {
+    font-family: "Poiret One", sans-serif;
+    font-size: 130%;
+}
+
+#conteudo #contatos .info h3 {
+    font-family: "Lexend", sans-serif;
+    font-size: 60%;
+    margin-left: 20%;
+}
+
+#conteudo #contatos .info img {
+    width: 25px;
+}
+
+#rodape div {
+    font-size: 45%;
+}
