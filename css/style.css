@@ -158,26 +158,32 @@ header #logoba img {
 
 /*CELULAR*/
 @media screen and (max-width: 1000px) {
+   
+header, #conteudo, #rodape {
+    width: 80%;
+}
+
     /*REDES SOCIAIS*/
 #conteudo #redesocial img {
-    width: 30px;
+    width: 50px;
 }
 
 #conteudo #contatos .info h2 {
     font-family: "Poiret One", sans-serif;
-    font-size: 130%;
+    font-size: 160%;
 }
 
 #conteudo #contatos .info h3 {
     font-family: "Lexend", sans-serif;
-    font-size: 60%;
+    font-size: 70%;
     margin-left: 20%;
 }
 
 #conteudo #contatos .info img {
-    width: 25px;
+    width: 40px;
 }
 
 #rodape div {
-    font-size: 45%;
+    font-size: 60%;
+}
 }
