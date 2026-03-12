@@ -160,7 +160,7 @@ header #logoba img {
 @media screen and (max-width: 1000px) {
    
 header, #conteudo, #rodape {
-    width: 80%;
+    width: 100%;
 }
 
     /*REDES SOCIAIS*/
@@ -180,11 +180,12 @@ header, #conteudo, #rodape {
 }
 
 #conteudo #contatos .info img {
-    width: 70%;
+    width: 65%;
 }
 
 #rodape div {
     font-size: 60%;
 }
 }
+
 
