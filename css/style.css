@@ -180,10 +180,11 @@ header, #conteudo, #rodape {
 }
 
 #conteudo #contatos .info img {
-    width: 40px;
+    width: 70%;
 }
 
 #rodape div {
     font-size: 60%;
 }
 }
+
